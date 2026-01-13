@@ -1,0 +1,18 @@
+{
+  "name": "supermicro-bmc-paste",
+  "version": "1.0.0",
+  "description": "Easily paste text into Supermicro BMC HTML5 virtual consoles.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:chrome": "vite build",
+    "build:firefox": "BROWSER=firefox vite build"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.260",
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.0"
+  }
+}
